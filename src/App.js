@@ -1,14 +1,10 @@
 import "./App.css";
-import React from "react";
 
 function App() {
+  console.log("APP RENDER");
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World!
-        </p>
-      </header>
+      <p>Hello World!</p>
     </div>
   );
 }
